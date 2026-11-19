@@ -1,5 +1,7 @@
 # Accuracy and Ecosystem Bias of Global Deforestation Products in the Merauke PSN Area (T04)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24362575.svg)](https://doi.org/10.5281/zenodo.24362575)
+
 Code, blind visual-interpretation app and data for the study *"Accuracy and Ecosystem Bias of Machine-Learning-Based Global Deforestation Products for Monitoring Land Clearing in the Merauke National Strategic Project, Indonesia: A Stratified-Sampling Assessment with Blind Visual Interpretation"*.
 
 > **Ringkasan (ID):** Repositori ini berisi notebook, aplikasi interpretasi visual buta, titik sampel berlabel, dan tabel hasil untuk penilaian akurasi Hansen GFC, JRC TMF, RADD, dan Dynamic World dalam mendeteksi pembukaan lahan 2024–2025 di Kabupaten Merauke. Semua tabel dan gambar tersedia dalam versi Indonesia (_ID) dan Inggris (_EN).
