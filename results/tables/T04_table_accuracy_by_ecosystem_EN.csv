@@ -1,0 +1,17 @@
+ecosystem,product,n_points_ecosystem,n_reference_cleared,producers_accuracy,PA_ci_low,PA_ci_high,users_accuracy
+Dense forest,Hansen,211,143,0.8173,0.6829,0.9812,0.8575
+Dense forest,TMF,211,143,0.3566,0.2756,0.4681,0.6445
+Dense forest,RADD,211,143,0.5109,0.3949,0.6546,0.9829
+Dense forest,DW,211,143,0.6364,0.4975,0.7678,0.2855
+Open forest / wooded savanna,Hansen,18,6,1.0,1.0,1.0,0.9703
+Open forest / wooded savanna,TMF,18,6,0.0,0.0,0.0,0.0
+Open forest / wooded savanna,RADD,18,6,0.0,0.0,0.0,
+Open forest / wooded savanna,DW,18,6,0.0613,0.0,0.2815,0.036
+Savanna / grassland,Hansen,16,4,1.0,1.0,1.0,1.0
+Savanna / grassland,TMF,16,4,0.0,0.0,0.0,0.0
+Savanna / grassland,RADD,16,4,0.0,0.0,0.0,
+Savanna / grassland,DW,16,4,1.0,1.0,1.0,0.1483
+Wetland,Hansen,35,2,0.0,0.0,0.0,0.0
+Wetland,TMF,35,2,0.5,0.0,1.0,0.4495
+Wetland,RADD,35,2,0.0,0.0,0.0,
+Wetland,DW,35,2,0.5,0.0,1.0,0.0585

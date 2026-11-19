@@ -1,0 +1,385 @@
+{
+  "jumlah_titik": 300,
+  "titik_valid_setelah_buang_9": 280,
+  "hasil_interpretasi": [
+    {
+      "kelas_interpretasi": "1 Dibuka 2024–2025",
+      "jumlah": 155
+    },
+    {
+      "kelas_interpretasi": "0 Tidak berubah",
+      "jumlah": 117
+    },
+    {
+      "kelas_interpretasi": "2 Sudah terbuka sejak 2023",
+      "jumlah": 7
+    },
+    {
+      "kelas_interpretasi": "3 Berubah alami",
+      "jumlah": 1
+    },
+    {
+      "kelas_interpretasi": "9 Tidak dapat ditentukan",
+      "jumlah": 20
+    }
+  ],
+  "luas_strata_ha": {
+    "0": 4195430.0,
+    "1": 90863.0,
+    "2": 9428.0,
+    "3": 5516.0,
+    "4": 4329.0
+  },
+  "akurasi_produk": [
+    {
+      "produk": "Hansen",
+      "metrik": "akurasi_keseluruhan",
+      "nilai": 0.9976,
+      "batas_bawah": 0.9962,
+      "batas_atas": 0.9989
+    },
+    {
+      "produk": "Hansen",
+      "metrik": "akurasi_pengguna",
+      "nilai": 0.874,
+      "batas_bawah": 0.7606,
+      "batas_atas": 0.9733
+    },
+    {
+      "produk": "Hansen",
+      "metrik": "akurasi_produser",
+      "nilai": 0.7873,
+      "batas_bawah": 0.6545,
+      "batas_atas": 0.9358
+    },
+    {
+      "produk": "Hansen",
+      "metrik": "F1",
+      "nilai": 0.8284,
+      "batas_bawah": 0.7315,
+      "batas_atas": 0.9212
+    },
+    {
+      "produk": "TMF",
+      "metrik": "akurasi_keseluruhan",
+      "nilai": 0.9931,
+      "batas_bawah": 0.9912,
+      "batas_atas": 0.995
+    },
+    {
+      "produk": "TMF",
+      "metrik": "akurasi_pengguna",
+      "nilai": 0.5592,
+      "batas_bawah": 0.4069,
+      "batas_atas": 0.7871
+    },
+    {
+      "produk": "TMF",
+      "metrik": "akurasi_produser",
+      "nilai": 0.3006,
+      "batas_bawah": 0.2176,
+      "batas_atas": 0.4086
+    },
+    {
+      "produk": "TMF",
+      "metrik": "F1",
+      "nilai": 0.3911,
+      "batas_bawah": 0.2988,
+      "batas_atas": 0.498
+    },
+    {
+      "produk": "RADD",
+      "metrik": "akurasi_keseluruhan",
+      "nilai": 0.9954,
+      "batas_bawah": 0.9936,
+      "batas_atas": 0.9969
+    },
+    {
+      "produk": "RADD",
+      "metrik": "akurasi_pengguna",
+      "nilai": 0.9829,
+      "batas_bawah": 0.9552,
+      "batas_atas": 1.0
+    },
+    {
+      "produk": "RADD",
+      "metrik": "akurasi_produser",
+      "nilai": 0.3742,
+      "batas_bawah": 0.2849,
+      "batas_atas": 0.4994
+    },
+    {
+      "produk": "RADD",
+      "metrik": "F1",
+      "nilai": 0.542,
+      "batas_bawah": 0.4406,
+      "batas_atas": 0.6643
+    },
+    {
+      "produk": "DW",
+      "metrik": "akurasi_keseluruhan",
+      "nilai": 0.9805,
+      "batas_bawah": 0.9789,
+      "batas_atas": 0.9822
+    },
+    {
+      "produk": "DW",
+      "metrik": "akurasi_pengguna",
+      "nilai": 0.1963,
+      "batas_bawah": 0.1506,
+      "batas_atas": 0.2507
+    },
+    {
+      "produk": "DW",
+      "metrik": "akurasi_produser",
+      "nilai": 0.5364,
+      "batas_bawah": 0.4134,
+      "batas_atas": 0.6738
+    },
+    {
+      "produk": "DW",
+      "metrik": "F1",
+      "nilai": 0.2875,
+      "batas_bawah": 0.2298,
+      "batas_atas": 0.3534
+    }
+  ],
+  "luas_pembukaan": [
+    {
+      "produk": "Referensi (interpretasi)",
+      "luas_ha": 31549.0,
+      "batas_bawah": 24629.0,
+      "batas_atas": 39179.0
+    },
+    {
+      "produk": "Hansen",
+      "luas_ha": 32019.0,
+      "batas_bawah": NaN,
+      "batas_atas": NaN
+    },
+    {
+      "produk": "TMF",
+      "luas_ha": 16584.0,
+      "batas_bawah": NaN,
+      "batas_atas": NaN
+    },
+    {
+      "produk": "RADD",
+      "luas_ha": 16384.0,
+      "batas_bawah": NaN,
+      "batas_atas": NaN
+    },
+    {
+      "produk": "DW",
+      "luas_ha": 86727.0,
+      "batas_bawah": NaN,
+      "batas_atas": NaN
+    }
+  ],
+  "PA_per_ekosistem": [
+    {
+      "ekosistem": "Hutan rapat",
+      "produk": "Hansen",
+      "n_titik_ekosistem": 211,
+      "n_referensi_dibuka": 143,
+      "akurasi_produser": 0.8173,
+      "PA_bawah": 0.6829,
+      "PA_atas": 0.9812,
+      "akurasi_pengguna": 0.8575
+    },
+    {
+      "ekosistem": "Hutan rapat",
+      "produk": "TMF",
+      "n_titik_ekosistem": 211,
+      "n_referensi_dibuka": 143,
+      "akurasi_produser": 0.3566,
+      "PA_bawah": 0.2756,
+      "PA_atas": 0.4681,
+      "akurasi_pengguna": 0.6445
+    },
+    {
+      "ekosistem": "Hutan rapat",
+      "produk": "RADD",
+      "n_titik_ekosistem": 211,
+      "n_referensi_dibuka": 143,
+      "akurasi_produser": 0.5109,
+      "PA_bawah": 0.3949,
+      "PA_atas": 0.6546,
+      "akurasi_pengguna": 0.9829
+    },
+    {
+      "ekosistem": "Hutan rapat",
+      "produk": "DW",
+      "n_titik_ekosistem": 211,
+      "n_referensi_dibuka": 143,
+      "akurasi_produser": 0.6364,
+      "PA_bawah": 0.4975,
+      "PA_atas": 0.7678,
+      "akurasi_pengguna": 0.2855
+    },
+    {
+      "ekosistem": "Hutan terbuka / savana berkayu",
+      "produk": "Hansen",
+      "n_titik_ekosistem": 18,
+      "n_referensi_dibuka": 6,
+      "akurasi_produser": 1.0,
+      "PA_bawah": 1.0,
+      "PA_atas": 1.0,
+      "akurasi_pengguna": 0.9703
+    },
+    {
+      "ekosistem": "Hutan terbuka / savana berkayu",
+      "produk": "TMF",
+      "n_titik_ekosistem": 18,
+      "n_referensi_dibuka": 6,
+      "akurasi_produser": 0.0,
+      "PA_bawah": 0.0,
+      "PA_atas": 0.0,
+      "akurasi_pengguna": 0.0
+    },
+    {
+      "ekosistem": "Hutan terbuka / savana berkayu",
+      "produk": "RADD",
+      "n_titik_ekosistem": 18,
+      "n_referensi_dibuka": 6,
+      "akurasi_produser": 0.0,
+      "PA_bawah": 0.0,
+      "PA_atas": 0.0,
+      "akurasi_pengguna": NaN
+    },
+    {
+      "ekosistem": "Hutan terbuka / savana berkayu",
+      "produk": "DW",
+      "n_titik_ekosistem": 18,
+      "n_referensi_dibuka": 6,
+      "akurasi_produser": 0.0613,
+      "PA_bawah": 0.0,
+      "PA_atas": 0.2815,
+      "akurasi_pengguna": 0.036
+    },
+    {
+      "ekosistem": "Savana / rumput",
+      "produk": "Hansen",
+      "n_titik_ekosistem": 16,
+      "n_referensi_dibuka": 4,
+      "akurasi_produser": 1.0,
+      "PA_bawah": 1.0,
+      "PA_atas": 1.0,
+      "akurasi_pengguna": 1.0
+    },
+    {
+      "ekosistem": "Savana / rumput",
+      "produk": "TMF",
+      "n_titik_ekosistem": 16,
+      "n_referensi_dibuka": 4,
+      "akurasi_produser": 0.0,
+      "PA_bawah": 0.0,
+      "PA_atas": 0.0,
+      "akurasi_pengguna": 0.0
+    },
+    {
+      "ekosistem": "Savana / rumput",
+      "produk": "RADD",
+      "n_titik_ekosistem": 16,
+      "n_referensi_dibuka": 4,
+      "akurasi_produser": 0.0,
+      "PA_bawah": 0.0,
+      "PA_atas": 0.0,
+      "akurasi_pengguna": NaN
+    },
+    {
+      "ekosistem": "Savana / rumput",
+      "produk": "DW",
+      "n_titik_ekosistem": 16,
+      "n_referensi_dibuka": 4,
+      "akurasi_produser": 1.0,
+      "PA_bawah": 1.0,
+      "PA_atas": 1.0,
+      "akurasi_pengguna": 0.1483
+    },
+    {
+      "ekosistem": "Lahan basah",
+      "produk": "Hansen",
+      "n_titik_ekosistem": 35,
+      "n_referensi_dibuka": 2,
+      "akurasi_produser": 0.0,
+      "PA_bawah": 0.0,
+      "PA_atas": 0.0,
+      "akurasi_pengguna": 0.0
+    },
+    {
+      "ekosistem": "Lahan basah",
+      "produk": "TMF",
+      "n_titik_ekosistem": 35,
+      "n_referensi_dibuka": 2,
+      "akurasi_produser": 0.5,
+      "PA_bawah": 0.0,
+      "PA_atas": 1.0,
+      "akurasi_pengguna": 0.4495
+    },
+    {
+      "ekosistem": "Lahan basah",
+      "produk": "RADD",
+      "n_titik_ekosistem": 35,
+      "n_referensi_dibuka": 2,
+      "akurasi_produser": 0.0,
+      "PA_bawah": 0.0,
+      "PA_atas": 0.0,
+      "akurasi_pengguna": NaN
+    },
+    {
+      "ekosistem": "Lahan basah",
+      "produk": "DW",
+      "n_titik_ekosistem": 35,
+      "n_referensi_dibuka": 2,
+      "akurasi_produser": 0.5,
+      "PA_bawah": 0.0,
+      "PA_atas": 1.0,
+      "akurasi_pengguna": 0.0585
+    }
+  ],
+  "kappa_antarproduk": [
+    {
+      "produk_A": "Hansen",
+      "produk_B": "TMF",
+      "kappa": 0.4459,
+      "kesepakatan": 0.9942
+    },
+    {
+      "produk_A": "Hansen",
+      "produk_B": "RADD",
+      "kappa": 0.5512,
+      "kesepakatan": 0.9957
+    },
+    {
+      "produk_A": "Hansen",
+      "produk_B": "DW",
+      "kappa": 0.224,
+      "kesepakatan": 0.9805
+    },
+    {
+      "produk_A": "TMF",
+      "produk_B": "RADD",
+      "kappa": 0.4365,
+      "kesepakatan": 0.9955
+    },
+    {
+      "produk_A": "TMF",
+      "produk_B": "DW",
+      "kappa": 0.1373,
+      "kesepakatan": 0.9797
+    },
+    {
+      "produk_A": "RADD",
+      "produk_B": "DW",
+      "kappa": 0.1575,
+      "kesepakatan": 0.9809
+    }
+  ],
+  "konsistensi_interpreter": {
+    "n": 30,
+    "kesepakatan_5kelas": 0.8333,
+    "kesepakatan_biner": 0.9,
+    "kappa_biner": 0.8018
+  }
+}

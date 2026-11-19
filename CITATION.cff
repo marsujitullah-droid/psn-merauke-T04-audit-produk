@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Accuracy and ecosystem bias of global deforestation products in the Merauke PSN area (T04): code, interpretation app and data"
+type: software
+authors:
+  - family-names: "Marsujitullah"
+    affiliation: "[INSTITUSI]"
+version: "1.0.0"
+license: MIT
+keywords:
+  - accuracy assessment
+  - stratified estimator
+  - deforestation products
+  - visual interpretation
+  - Google Earth Engine
+  - Merauke

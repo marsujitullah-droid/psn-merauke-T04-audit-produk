@@ -1,0 +1,17 @@
+product,metric,value,ci_low,ci_high
+Hansen,overall_accuracy,0.9976,0.9962,0.9989
+Hansen,users_accuracy,0.874,0.7606,0.9733
+Hansen,producers_accuracy,0.7873,0.6545,0.9358
+Hansen,F1,0.8284,0.7315,0.9212
+TMF,overall_accuracy,0.9931,0.9912,0.995
+TMF,users_accuracy,0.5592,0.4069,0.7871
+TMF,producers_accuracy,0.3006,0.2176,0.4086
+TMF,F1,0.3911,0.2988,0.498
+RADD,overall_accuracy,0.9954,0.9936,0.9969
+RADD,users_accuracy,0.9829,0.9552,1.0
+RADD,producers_accuracy,0.3742,0.2849,0.4994
+RADD,F1,0.542,0.4406,0.6643
+DW,overall_accuracy,0.9805,0.9789,0.9822
+DW,users_accuracy,0.1963,0.1506,0.2507
+DW,producers_accuracy,0.5364,0.4134,0.6738
+DW,F1,0.2875,0.2298,0.3534

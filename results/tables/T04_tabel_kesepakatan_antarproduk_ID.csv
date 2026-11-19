@@ -1,0 +1,7 @@
+produk_A,produk_B,kappa,kesepakatan
+Hansen,TMF,0.4459,0.9942
+Hansen,RADD,0.5512,0.9957
+Hansen,DW,0.224,0.9805
+TMF,RADD,0.4365,0.9955
+TMF,DW,0.1373,0.9797
+RADD,DW,0.1575,0.9809
